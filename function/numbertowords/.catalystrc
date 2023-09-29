@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "18112000000004014",
+      "name": "numbertoword",
+      "domain": {
+        "id": "10061338369",
+        "name": "numbertoword-813819452.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "813819452",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

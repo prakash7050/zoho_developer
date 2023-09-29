@@ -1,0 +1,49 @@
+[debug] [2023-06-20T04:41:37.142Z] : 
+[debug] [2023-06-20T04:41:37.143Z] : ----------------------------------------------------------------------
+[debug] [2023-06-20T04:41:37.144Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-06-20T04:41:37.144Z] : CLI Version:  1.14.1
+[debug] [2023-06-20T04:41:37.144Z] : Platform:     win32
+[debug] [2023-06-20T04:41:37.145Z] : Node Version: v18.16.0
+[debug] [2023-06-20T04:41:37.146Z] : Time:         Tue Jun 20 2023 10:11:37 GMT+0530 (India Standard Time)
+[debug] [2023-06-20T04:41:37.146Z] : ----------------------------------------------------------------------
+[debug] [2023-06-20T04:41:37.146Z] : 
+[debug] [2023-06-20T04:41:38.395Z] : > authorizing via signed-in user option
+[debug] [2023-06-20T04:41:38.395Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-06-20T04:41:38.420Z] : > refreshing access token <
+[debug] [2023-06-20T04:41:38.422Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-06-20T04:41:39.342Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Jun 2023 04:41:38 GMT","content-type":"application/json;charset=UTF-8","content-length":"1751","connection":"close","set-cookie":["b266a5bf57=dcb92d0f99dd7421201f8dc746d54606; Path=/","iamcsr=a1a925a1-ee41-4515-8491-ec49af786201;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a1a925a1-ee41-4515-8491-ec49af786201;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-06-20T04:41:39.354Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18112000000004014 
+
+[debug] [2023-06-20T04:41:40.332Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Jun 2023 04:41:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=04482574-54be-4bad-84e7-072b010db1b1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=04482574-54be-4bad-84e7-072b010db1b1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-06-20T04:41:40.335Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18112000000004014/environment 
+
+[debug] [2023-06-20T04:41:41.227Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Jun 2023 04:41:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=1913c5ac-2e6e-4294-abbf-aa00d2fa7241;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1913c5ac-2e6e-4294-abbf-aa00d2fa7241;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-06-20T04:41:41.528Z] : Build folder already exists, staring cleanup
+[debug] [2023-06-20T04:41:41.747Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18112000000004014/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-06-20T04:41:42.600Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 20 Jun 2023 04:41:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=5e361f58-593e-49ac-a00d-48bc4ef648a6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5e361f58-593e-49ac-a00d-48bc4ef648a6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-06-20T04:41:42.604Z] : unknown eol undefined hence skipping check
+[info] [2023-06-20T04:41:43.378Z] : 
+[info] [2023-06-20T04:41:43.379Z] : i server[numbertoword_function]: URL : http://localhost:3000/server/numbertoword_function/
+[info] [2023-06-20T04:41:43.380Z] : 
+[info] [2023-06-20T04:44:50.009Z] : 
+change of index.js in numbertoword_function detected. Preparing your function, please wait...
+[info] [2023-06-20T04:44:50.594Z] : i server[numbertoword_function]: ready!
+[info] [2023-06-20T04:44:50.595Z] : i server[numbertoword_function]: URL : http://localhost:3000/server/numbertoword_function/
+[info] [2023-06-20T04:44:50.596Z] : 
+[info] [2023-06-20T04:44:51.613Z] : 
+change of index.js in numbertoword_function detected. Preparing your function, please wait...
+[info] [2023-06-20T04:44:52.161Z] : i server[numbertoword_function]: ready!
+[info] [2023-06-20T04:44:52.162Z] : i server[numbertoword_function]: URL : http://localhost:3000/server/numbertoword_function/
+[info] [2023-06-20T04:44:52.164Z] : 
