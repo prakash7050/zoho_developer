@@ -1,0 +1,77 @@
+html,
+body {
+    background: #fff;
+    font-family: arial;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#charts {
+    height: 100%;
+}
+
+.main-content {
+    height: 600px;
+    height: calc(100vh - 50px);
+}
+
+.gantt_cal_light {
+    height: 420 !important;
+}
+
+.gantt_cal_larea {
+    height: 80%!important;
+}
+
+.gantt_grid_head_cell {
+    border: 1px solid #d7d7d7!important;
+}
+
+.gantt_cell {
+    border-right: 1px solid #d7d7d7!important;
+}
+
+.gantt_row,
+.gantt_task_row {
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.gantt_task_line {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.add_shadow {
+    box-shadow: rgba(68, 138, 255, 0.25) 0px 15px 30px -6px inset, rgba(60, 64, 67, 0.25) 0px 9px 18px -9px inset;
+}
+
+.add_shadow_void {
+    box-shadow: rgba(182, 143, 59, 0.25) 0px 15px 30px -6px inset, rgba(60, 64, 67, 0.25) 0px 9px 18px -9px inset;
+}
+
+.gantt_project {
+    display: none!important;
+}
+
+.today {
+    background-color: #65c16f;
+}
+
+.dark_border_from {
+    border: 1px solid green!important;
+    border-right: 0px solid rgb(255, 255, 255)!important;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.dark_border_to {
+    border: 1px solid green!important;
+    border-left: 0px solid rgb(255, 255, 255)!important;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.identify_consumables {
+    border: 1px solid brown!important;
+}

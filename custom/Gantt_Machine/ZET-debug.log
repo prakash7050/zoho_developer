@@ -1,0 +1,25 @@
+[info] [2023-08-10T05:06:16.629Z] : i You're already logged in as sumeet.sawhney@alpinahotels.com
+[debug] [2023-08-10T05:06:24.148Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token/revoke 
+Query params: {"token":"1000.9c905ff48fcde47f692b5112d629e1d8.f30e0c033b02d41dd13f7df9469aa0b7"}
+
+[debug] [2023-08-10T05:06:24.389Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 10 Aug 2023 05:06:23 GMT","content-length":"20","connection":"close","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=4d1f6c41-0e73-4617-ae10-d839cd99e504;path=/;Secure;priority=high","_zcsr_tmp=4d1f6c41-0e73-4617-ae10-d839cd99e504;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-08-10T05:06:24.487Z] : √ You've been logged out.
+[info] [2023-08-10T05:06:33.662Z] : 
+[info] [2023-08-10T05:06:33.664Z] : Click this URL to login to your Zoho Account
+[info] [2023-08-10T05:06:33.664Z] : https://accounts.zoho.com/oauth/v2/auth?client_id=1000.gnjph6g96nf23jd4u14tba2egykhik&scope=ZAPPS.apps.ALL%20AaaServer.profile.READ%20ZMProcessors.connectors.CREATE&response_type=code&access_type=offline&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] [2023-08-10T05:06:33.665Z] : Note: To login to CN DC, update the above URL from accounts.zoho.com to accounts.zoho.com.cn
+[info] [2023-08-10T05:06:33.665Z] : 
+[debug] [2023-08-10T05:06:44.528Z] : DCType Of the user is in
+[debug] [2023-08-10T05:06:44.530Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request query omitted>
+
+[debug] [2023-08-10T05:06:44.783Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 10 Aug 2023 05:06:44 GMT","content-type":"application/json;charset=UTF-8","content-length":"336","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=fd66b651-52ef-45c9-a053-c5e598eb2256;path=/;Secure;priority=high","_zcsr_tmp=fd66b651-52ef-45c9-a053-c5e598eb2256;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-08-10T05:06:44.816Z] : >>>> HTTP REQUEST : GET https://accounts.zoho.in/oauth/user/info 
+
+[debug] [2023-08-10T05:06:45.149Z] : <<<< HTTP RESPONSE : 200
+Response Headers{"server":"ZGS","date":"Thu, 10 Aug 2023 05:06:44 GMT","content-type":"application/json;charset=UTF-8","content-length":"118","connection":"close","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=f12e07b8-5703-452c-aa7f-138581331ceb;path=/;Secure;priority=high","_zcsr_tmp=f12e07b8-5703-452c-aa7f-138581331ceb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
